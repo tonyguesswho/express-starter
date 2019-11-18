@@ -1,0 +1,32 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for express api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "mocha --require @babel/register 'src/**/**test.js'"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "api",
+    "babel"
+  ],
+  "author": "Anthony Ugwu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
